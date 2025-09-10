@@ -44,16 +44,7 @@ const Hero = () => {
             Controla tu hogar desde cualquier lugar del mundo.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-              Consulta Gratuita
-              <ArrowRight className="w-5 h-5" />
-            </Button>
-            <Button variant="tech" size="lg" className="text-lg px-8 py-6">
-              Ver Proyectos
-            </Button>
-          </div>
+          
 
           {/* Feature Icons */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
