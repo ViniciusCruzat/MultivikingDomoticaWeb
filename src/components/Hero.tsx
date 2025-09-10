@@ -50,7 +50,9 @@ const Hero = () => {
               Consulta Gratuita
               <ArrowRight className="w-5 h-5" />
             </Button>
-            
+            <Button variant="tech" size="lg" className="text-lg px-8 py-6">
+              Ver Proyectos
+            </Button>
           </div>
 
           {/* Feature Icons */}
